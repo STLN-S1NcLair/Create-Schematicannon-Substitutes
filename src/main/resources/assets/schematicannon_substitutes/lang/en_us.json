@@ -1,0 +1,13 @@
+{
+  "itemGroup.schematicannon_substitutes": "Example Mod Tab",
+  "block.schematicannon_substitutes.example_block": "Example Block",
+  "item.schematicannon_substitutes.example_item": "Example Item",
+
+  "schematicannon_substitutes.configuration.title": "Create: Schematicannon Substitutes Configs",
+  "schematicannon_substitutes.configuration.section.schematicannon_substitutes.common.toml": "Create: Schematicannon Substitutes Configs",
+  "schematicannon_substitutes.configuration.section.schematicannon_substitutes.common.toml.title": "Create: Schematicannon Substitutes Configs",
+  "schematicannon_substitutes.configuration.items": "Item List",
+  "schematicannon_substitutes.configuration.logDirtBlock": "Log Dirt Block",
+  "schematicannon_substitutes.configuration.magicNumberIntroduction": "Magic Number Text",
+  "schematicannon_substitutes.configuration.magicNumber": "Magic Number"
+}
