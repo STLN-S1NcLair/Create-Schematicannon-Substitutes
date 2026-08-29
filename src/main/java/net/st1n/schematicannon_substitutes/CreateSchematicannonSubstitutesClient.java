@@ -25,7 +25,5 @@ public class CreateSchematicannonSubstitutesClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
-        CreateSchematicannonSubstitutes.LOGGER.info("HELLO FROM CLIENT SETUP");
-        CreateSchematicannonSubstitutes.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }

@@ -1,13 +1,18 @@
 {
-  "itemGroup.schematicannon_substitutes": "Example Mod Tab",
-  "block.schematicannon_substitutes.example_block": "Example Block",
-  "item.schematicannon_substitutes.example_item": "Example Item",
-
-  "schematicannon_substitutes.configuration.title": "Create: Schematicannon Substitutes Configs",
-  "schematicannon_substitutes.configuration.section.schematicannon_substitutes.common.toml": "Create: Schematicannon Substitutes Configs",
-  "schematicannon_substitutes.configuration.section.schematicannon_substitutes.common.toml.title": "Create: Schematicannon Substitutes Configs",
-  "schematicannon_substitutes.configuration.items": "Item List",
-  "schematicannon_substitutes.configuration.logDirtBlock": "Log Dirt Block",
-  "schematicannon_substitutes.configuration.magicNumberIntroduction": "Magic Number Text",
-  "schematicannon_substitutes.configuration.magicNumber": "Magic Number"
+  "config.schematicannon_substitutes.terrain_materials_per_block": "Terrain Materials Per Block",
+  "config.schematicannon_substitutes.construction_materials_per_block": "Construction Materials Per Block",
+  "config.schematicannon_substitutes.cystal_materials_per_block": "Crystal Materials Per Block",
+  "config.schematicannon_substitutes.metal_materials_per_block": "Metal Materials Per Block",
+  "config.schematicannon_substitutes.industrial_materials_per_block": "Industrial Materials Per Block",
+  "config.schematicannon_substitutes.precious_materials_per_block": "Precious Materials Per Block",
+  "config.schematicannon_substitutes.use_only_construction_materials": "Use Only Construction Materials",
+  "config.schematicannon_substitutes.show_substitutes_in_clipboard": "Show Substitutes In Clipboard",
+  "config.schematicannon_substitutes.fallback_to_construction_when_untagged": "Fallback To Construction When Untagged",
+  "item.schematicannon_substitutes.terrain_materials": "Terrain Materials",
+  "item.schematicannon_substitutes.construction_materials": "Construction Materials",
+  "item.schematicannon_substitutes.crystal_materials": "Crystal Materials",
+  "item.schematicannon_substitutes.metal_materials": "Metal Materials",
+  "item.schematicannon_substitutes.industrial_materials": "Industrial Materials",
+  "item.schematicannon_substitutes.precious_materials": "Precious Materials",
+  "tab.schematicannon_substitutes.tab": "Schematicannon Substitutes"
 }

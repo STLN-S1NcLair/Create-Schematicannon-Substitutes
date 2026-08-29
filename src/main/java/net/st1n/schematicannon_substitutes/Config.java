@@ -1,42 +1,54 @@
 package net.st1n.schematicannon_substitutes;
 
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
-
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Item;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.fml.event.config.ModConfigEvent;
 import net.neoforged.neoforge.common.ModConfigSpec;
 
-// An example config class. This is not required, but it's a good idea to have one to keep your config organized.
-// Demonstrates how to use Neo's config APIs
 public class Config {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
 
-    public static final ModConfigSpec.BooleanValue LOG_DIRT_BLOCK = BUILDER
-            .comment("Whether to log the dirt block on common setup")
-            .define("logDirtBlock", true);
+    public static final ModConfigSpec.IntValue TERRAIN_MATERIALS_PER_BLOCK = BUILDER
+            .translation("config.schematicannon_substitutes.terrain_materials_per_block")
+            .comment("Terrain Materials consumed per 1 schematic block.")
+            .defineInRange("terrainMaterialsPerBlock", 1, 1, Integer.MAX_VALUE);
 
-    public static final ModConfigSpec.IntValue MAGIC_NUMBER = BUILDER
-            .comment("A magic number")
-            .defineInRange("magicNumber", 42, 0, Integer.MAX_VALUE);
+    public static final ModConfigSpec.IntValue CONSTRUCTION_MATERIALS_PER_BLOCK = BUILDER
+            .translation("config.schematicannon_substitutes.construction_materials_per_block")
+            .comment("Construction Materials consumed per 1 schematic block.")
+            .defineInRange("constructionMaterialsPerBlock", 1, 1, Integer.MAX_VALUE);
 
-    public static final ModConfigSpec.ConfigValue<String> MAGIC_NUMBER_INTRODUCTION = BUILDER
-            .comment("What you want the introduction message to be for the magic number")
-            .define("magicNumberIntroduction", "The magic number is... ");
+    public static final ModConfigSpec.IntValue CRYSTAL_MATERIALS_PER_BLOCK = BUILDER
+            .translation("config.schematicannon_substitutes.cystal_materials_per_block")
+            .comment("Crystal Materials consumed per 1 schematic block.")
+            .defineInRange("crystalMaterialsPerBlock", 1, 1, Integer.MAX_VALUE);
 
-    // a list of strings that are treated as resource locations for items
-    public static final ModConfigSpec.ConfigValue<List<? extends String>> ITEM_STRINGS = BUILDER
-            .comment("A list of items to log on common setup.")
-            .defineListAllowEmpty("items", List.of("minecraft:iron_ingot"), () -> "", Config::validateItemName);
+    public static final ModConfigSpec.IntValue METAL_MATERIALS_PER_BLOCK = BUILDER
+            .translation("config.schematicannon_substitutes.metal_materials_per_block")
+            .comment("Metal Materials consumed per 1 schematic block.")
+            .defineInRange("metalMaterialsPerBlock", 1, 1, Integer.MAX_VALUE);
+
+    public static final ModConfigSpec.IntValue INDUSTRIAL_MATERIALS_PER_BLOCK = BUILDER
+            .translation("config.schematicannon_substitutes.industrial_materials_per_block")
+            .comment("Industrial Materials consumed per 1 schematic block.")
+            .defineInRange("industrialMaterialsPerBlock", 1, 1, Integer.MAX_VALUE);
+
+    public static final ModConfigSpec.IntValue PRECIOUS_MATERIALS_PER_BLOCK = BUILDER
+            .translation("config.schematicannon_substitutes.precious_materials_per_block")
+            .comment("Precious Materials consumed per 1 schematic block.")
+            .defineInRange("preciousMaterialsPerBlock", 1, 1, Integer.MAX_VALUE);
+
+    public static final ModConfigSpec.BooleanValue USE_ONLY_CONSTRUCTION_MATERIALS = BUILDER
+            .translation("config.schematicannon_substitutes.use_only_construction_materials")
+            .comment("If true, all schematic blocks consume Construction Materials regardless of tags, with required quantities preserved.")
+            .define("useOnlyConstructionMaterials", false);
+
+    public static final ModConfigSpec.BooleanValue SHOW_SUBSTITUTES_IN_CLIPBOARD = BUILDER
+            .translation("config.schematicannon_substitutes.show_substitutes_in_clipboard")
+            .comment("If true, clipboard requirement display is replaced with substitute materials.")
+            .define("showSubstitutesInClipboard", true);
+
+    public static final ModConfigSpec.BooleanValue FALLBACK_TO_CONSTRUCTION_WHEN_UNTAGGED = BUILDER
+            .translation("config.schematicannon_substitutes.fallback_to_construction_when_untagged")
+            .comment("If true, untagged blocks consume Construction Materials. If false, edit the tags to specify which Materials they consume.")
+            .define("fallbackToConstructionWhenUntagged", true);
 
     static final ModConfigSpec SPEC = BUILDER.build();
-
-    private static boolean validateItemName(final Object obj) {
-        return obj instanceof String itemName && BuiltInRegistries.ITEM.containsKey(ResourceLocation.parse(itemName));
-    }
 }

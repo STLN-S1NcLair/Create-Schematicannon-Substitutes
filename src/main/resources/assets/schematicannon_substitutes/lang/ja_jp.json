@@ -1,0 +1,18 @@
+{
+  "config.schematicannon_substitutes.terrain_materials_per_block": "1ブロックあたりに消費する大地の資材",
+  "config.schematicannon_substitutes.construction_materials_per_block": "1ブロックあたりに消費する建造の資材",
+  "config.schematicannon_substitutes.cystal_materials_per_block": "1ブロックあたりに消費する結晶の資材",
+  "config.schematicannon_substitutes.metal_materials_per_block": "1ブロックあたりに消費する鉱鉄の資材",
+  "config.schematicannon_substitutes.industrial_materials_per_block": "1ブロックあたりに消費する機巧の資材",
+  "config.schematicannon_substitutes.precious_materials_per_block": "1ブロックあたりに消費する稀有な資材",
+  "config.schematicannon_substitutes.use_only_construction_materials": "常に建造の資材のみを使用する",
+  "config.schematicannon_substitutes.show_substitutes_in_clipboard": "クリップボードにブロックの代わりに資材を表示する",
+  "config.schematicannon_substitutes.fallback_to_construction_when_untagged": "タグがない場合に建造の資材を使用する",
+  "item.schematicannon_substitutes.terrain_materials": "大地の資材",
+  "item.schematicannon_substitutes.construction_materials": "建造の資材",
+  "item.schematicannon_substitutes.crystal_materials": "結晶の資材",
+  "item.schematicannon_substitutes.metal_materials": "鉱鉄の資材",
+  "item.schematicannon_substitutes.industrial_materials": "機巧の資材",
+  "item.schematicannon_substitutes.precious_materials": "稀有な資材",
+  "tab.schematicannon_substitutes.tab": "Schematicannon Substitutes"
+}

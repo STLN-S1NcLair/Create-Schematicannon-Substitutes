@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:gems/amethyst",
+      "count": 2
+    },
+    {
+      "tag": "c:gems/quartz",
+      "count": 2
+    },
+    {
+      "item": "minecraft:glowstone"
+    }
+  ],
+  "results": [
+    {
+      "id": "schematicannon_substitutes:crystal_materials",
+      "count": 3
+    }
+  ]
+}

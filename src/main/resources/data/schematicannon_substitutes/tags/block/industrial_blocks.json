@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "create:crushing_wheel",
+    "create:smart_chute",
+    "create:smart_fluid_pipe",
+    "create:clockwork_bearing",
+    "create:elevator_pulley",
+    "create:controller_rail",
+    "create:deployer",
+    "create:mechanical_roller",
+    "create:mechanical_crafter",
+    "create:sequenced_gearshift",
+    "create:rotation_speed_controller",
+    "create:mechanical_arm",
+    "create:controls",
+    "create:brass_funnel",
+    "create:brass_tunnel",
+    "create:content_observer",
+    "create:stockpile_switch",
+    "create:stock_link",
+    "create:stock_ticker",
+    "create:factory_gauge",
+    "create:display_link",
+    "create:display_board",
+    "create:nixie_tube",
+    "create:rose_quartz_lamp",
+    "create:pulse_repeater",
+    "create:pulse_extender",
+    "create:pulse_timer",
+    "#create:toolboxes"
+  ]
+}

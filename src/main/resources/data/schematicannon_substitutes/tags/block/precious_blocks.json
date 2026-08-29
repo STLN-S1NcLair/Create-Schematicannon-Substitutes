@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:emerald_block",
+    "minecraft:diamond_block",
+    "minecraft:netherite_block",
+    "#c:ores/emerald",
+    "#c:ores/diamond",
+    "#c:ores/netherite_scrap",
+    "minecraft:enchanting_table",
+    "minecraft:beacon",
+    "minecraft:conduit",
+    "create:netherite_backtank"
+  ]
+}

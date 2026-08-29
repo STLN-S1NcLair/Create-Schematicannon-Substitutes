@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "tag": "c:ingots/brass"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "P",
+    "B",
+    "A",
+    "E"
+  ],
+  "result": {
+    "count": 2,
+    "id": "schematicannon_substitutes:industrial_materials"
+  },
+  "show_notification": false
+}
