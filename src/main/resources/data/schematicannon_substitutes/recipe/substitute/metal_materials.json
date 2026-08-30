@@ -1,0 +1,10 @@
+{
+  "type": "schematicannon_substitutes:substitute",
+  "category": "misc",
+  "ingredient": {
+      "tag": "schematicannon_substitutes:metal_blocks"
+    },
+  "result": {
+    "id": "schematicannon_substitutes:metal_materials"
+  }
+}

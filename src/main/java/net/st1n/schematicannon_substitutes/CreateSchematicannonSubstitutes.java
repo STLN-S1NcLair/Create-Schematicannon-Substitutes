@@ -3,6 +3,7 @@ package net.st1n.schematicannon_substitutes;
 import net.minecraft.tags.ItemTags;
 import net.st1n.schematicannon_substitutes.item.CreativeTabInit;
 import net.st1n.schematicannon_substitutes.item.ItemInit;
+import net.st1n.schematicannon_substitutes.recipe.RecipeInit;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -55,6 +56,7 @@ public class CreateSchematicannonSubstitutes {
 
         ItemInit.register(modEventBus);
         CreativeTabInit.registerCreativeTabs(modEventBus);
+        RecipeInit.registerRecipes(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

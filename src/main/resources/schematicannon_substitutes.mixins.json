@@ -3,8 +3,9 @@
   "package": "net.st1n.schematicannon_substitutes.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "MaterialChecklistMixin",
     "SchematicannonInventoryMixin",
-    "SchematicannonChecklistMixin"
+    "SchematicPrinterMixin"
   ],
   "injectors": {
     "defaultRequire": 1
