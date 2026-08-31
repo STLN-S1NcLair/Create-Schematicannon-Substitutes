@@ -10,6 +10,9 @@
     "minecraft:enchanting_table",
     "minecraft:beacon",
     "minecraft:conduit",
-    "create:netherite_backtank"
+    "create:netherite_backtank",
+    "minecraft:beacon",
+    "minecraft:conduit",
+    "minecraft:ender_chest"
   ]
 }
