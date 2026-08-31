@@ -18,7 +18,7 @@ public class Config {
     public static final ModConfigSpec.BooleanValue FALLBACK_TO_CONSTRUCTION_WHEN_UNTAGGED = BUILDER
             .translation("config.schematicannon_substitutes.fallback_to_construction_when_untagged")
             .comment("If true, untagged blocks consume Construction Materials. If false, edit the tags to specify which Materials they consume.")
-            .define("fallbackToConstructionWhenUntagged", true);
+            .define("fallbackToConstructionWhenUntagged", false);
 
     static final ModConfigSpec SPEC = BUILDER.build();
 }
