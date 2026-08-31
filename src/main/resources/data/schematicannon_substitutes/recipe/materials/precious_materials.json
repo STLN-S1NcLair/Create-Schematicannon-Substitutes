@@ -3,12 +3,19 @@
   "heat_requirement": "superheated",
   "ingredients": [
     {
-      "tag": "c:gems/diamond",
-      "count": 3
+      "tag": "c:gems/diamond"
     },
     {
-      "tag": "c:gems/emerald",
-      "count": 2
+      "tag": "c:gems/diamond"
+    },
+    {
+      "tag": "c:gems/diamond"
+    },
+    {
+      "tag": "c:gems/emerald"
+    },
+    {
+      "tag": "c:gems/emerald"
     },
     {
       "tag": "c:ingots/gold"

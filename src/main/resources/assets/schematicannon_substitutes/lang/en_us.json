@@ -10,9 +10,13 @@
   "config.schematicannon_substitutes.fallback_to_construction_when_untagged": "Fallback To Construction When Untagged",
   "item.schematicannon_substitutes.terrain_materials": "Terrain Materials",
   "item.schematicannon_substitutes.construction_materials": "Construction Materials",
+  "item.schematicannon_substitutes.wool_materials": "Wool Materials",
   "item.schematicannon_substitutes.crystal_materials": "Crystal Materials",
   "item.schematicannon_substitutes.metal_materials": "Metal Materials",
   "item.schematicannon_substitutes.industrial_materials": "Industrial Materials",
+  "item.schematicannon_substitutes.nether_materials": "Nether Materials",
+  "item.schematicannon_substitutes.end_materials": "End Materials",
+  "item.schematicannon_substitutes.organic_materials": "Organic Materials",
   "item.schematicannon_substitutes.precious_materials": "Precious Materials",
   "tab.schematicannon_substitutes.tab": "Schematicannon Substitutes"
 }

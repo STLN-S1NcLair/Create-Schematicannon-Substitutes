@@ -2,21 +2,22 @@
   "type": "create:compacting",
   "ingredients": [
     {
-      "tag": "c:gems/amethyst",
-      "count": 2
+      "tag": "c:gems/amethyst"
     },
     {
-      "tag": "c:gems/quartz",
-      "count": 2
+      "tag": "c:gems/amethyst"
     },
     {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
     }
   ],
   "results": [
     {
       "id": "schematicannon_substitutes:crystal_materials",
-      "count": 3
+      "count": 5
     }
   ]
 }

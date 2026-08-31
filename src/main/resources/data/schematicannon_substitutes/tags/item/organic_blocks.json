@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bee_nest",
+    "minecraft:beehive",
+    "minecraft:honeycomb_block",
+    "minecraft:slime_block",
+    "minecraft:honey_block",
+    "minecraft:ochre_froglight",
+    "minecraft:verdant_froglight",
+    "minecraft:pearlescent_froglight",
+    "minecraft:cobweb",
+    "#minecraft:candles",
+    "minecraft:bone_block"
+  ]
+}

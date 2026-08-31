@@ -13,11 +13,19 @@ public class ItemInit {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CONSTRUCTION_MATERIALS = ITEMS.register("construction_materials",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> WOOL_MATERIALS = ITEMS.register("wool_materials",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CRYSTAL_MATERIALS = ITEMS.register("crystal_materials",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> METAL_MATERIALS = ITEMS.register("metal_materials",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> INDUSTRIAL_MATERIALS = ITEMS.register("industrial_materials",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NETHER_MATERIALS = ITEMS.register("nether_materials",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> END_MATERIALS = ITEMS.register("end_materials",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ORGANIC_MATERIALS = ITEMS.register("organic_materials",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PRECIOUS_MATERIALS = ITEMS.register("precious_materials",
             () -> new Item(new Item.Properties()));

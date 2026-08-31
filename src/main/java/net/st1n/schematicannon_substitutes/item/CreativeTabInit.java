@@ -8,8 +8,6 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.st1n.schematicannon_substitutes.CreateSchematicannonSubstitutes;
 
-import java.util.List;
-
 public class CreativeTabInit {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateSchematicannonSubstitutes.MODID);
@@ -20,9 +18,13 @@ public class CreativeTabInit {
             .displayItems((parameters, output) -> {
                 output.accept(ItemInit.TERRAIN_MATERIALS.get());
                 output.accept(ItemInit.CONSTRUCTION_MATERIALS.get());
+                output.accept(ItemInit.WOOL_MATERIALS.get());
                 output.accept(ItemInit.CRYSTAL_MATERIALS.get());
                 output.accept(ItemInit.METAL_MATERIALS.get());
                 output.accept(ItemInit.INDUSTRIAL_MATERIALS.get());
+                output.accept(ItemInit.NETHER_MATERIALS.get());
+                output.accept(ItemInit.END_MATERIALS.get());
+                output.accept(ItemInit.ORGANIC_MATERIALS.get());
                 output.accept(ItemInit.PRECIOUS_MATERIALS.get());
             }).build());
 

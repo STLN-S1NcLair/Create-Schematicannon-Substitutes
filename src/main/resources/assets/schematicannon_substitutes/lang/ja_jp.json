@@ -10,9 +10,13 @@
   "config.schematicannon_substitutes.fallback_to_construction_when_untagged": "タグがない場合に建造の資材を使用する",
   "item.schematicannon_substitutes.terrain_materials": "大地の資材",
   "item.schematicannon_substitutes.construction_materials": "建造の資材",
+  "item.schematicannon_substitutes.wool_materials": "繊維の資材",
   "item.schematicannon_substitutes.crystal_materials": "結晶の資材",
   "item.schematicannon_substitutes.metal_materials": "鉱鉄の資材",
   "item.schematicannon_substitutes.industrial_materials": "機巧の資材",
+  "item.schematicannon_substitutes.nether_materials": "地殻の資材",
+  "item.schematicannon_substitutes.end_materials": "異界の資材",
+  "item.schematicannon_substitutes.organic_materials": "生物の資材",
   "item.schematicannon_substitutes.precious_materials": "稀有な資材",
   "tab.schematicannon_substitutes.tab": "Schematicannon Substitutes"
 }

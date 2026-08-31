@@ -3,15 +3,25 @@
   "heat_requirement": "heated",
   "ingredients": [
     {
-      "tag": "c:ingots/iron",
-      "count": 3
+      "tag": "c:ingots/iron"
     },
     {
-      "tag": "c:ingots/copper",
-      "count": 2
+      "tag": "c:ingots/iron"
     },
     {
-      "tag": "c:ingots/gold"
+      "item": "create:andesite_alloy"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
     },
     {
       "tag": "c:ingots/zinc"

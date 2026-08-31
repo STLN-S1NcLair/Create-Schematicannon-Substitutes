@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "results": [
+    {
+      "id": "schematicannon_substitutes:organic_materials",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "tag": "c:gems/quartz"
+    },
+    {
+      "tag": "c:gems/quartz"
+    },
+    {
+      "tag": "c:fertilizers"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 50,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "id": "schematicannon_substitutes:nether_materials",
+      "count": 8
+    }
+  ]
+}
